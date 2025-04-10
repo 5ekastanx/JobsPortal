@@ -41,9 +41,9 @@
 
 ***GET /api/v1/jobs/{id}/ — Получить подробности по конкретной вакансии***
 
-***POST /api/v1/jobs/{id}/apply/ — Отправить резюме на конкретную вакансию***
+***POST /api/v1/jobs/{id}/ — Отправить резюме на конкретную вакансию***
 
 ## Тестирование
 1. Для запуска тестов выполните команду:
     ```bash
-docker-compose exec backend pytest
+    docker-compose exec backend pytest
