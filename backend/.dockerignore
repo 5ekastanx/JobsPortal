@@ -1,0 +1,36 @@
+# Python cache files
+__pycache__
+*.pyc
+*.pyo
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+db.sqlite3
+
+
+# Virtualenv
+2gisvenv/
+env/
+
+venv/
+env/
+
+# Node and front-end build files (если есть)
+node_modules/
+build/
+dist/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+
+# Docker-specific
+.dockerignore
+Dockerfile
+docker-compose.yml

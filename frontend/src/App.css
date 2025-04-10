@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  margin: 0 auto;
+  width: 1250px;
+}
+
+body{
+  background-color: #f8f9fa;
+  font-family: "Inter", sans-serif;
+}

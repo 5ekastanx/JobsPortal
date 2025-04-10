@@ -1,0 +1,75 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.so
+*.egg
+*.egg-info
+dist
+build
+eggs
+lib
+lib64
+parts
+sdist
+var
+wheels
+*.manifest
+*.spec
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+*.db
+*.db-journal
+media
+staticfiles
+*.bak
+*.swp
+*.swo
+*.DS_Store
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Docker
+*.docker
+docker-compose.override.yml
+
+# Virtualenv
+.env/
+.2gisvenv/
+env/
+2gisvenv/
+
+# Coverage
+.coverage
+*.coveragerc
+.tox/
+.nox/
+.coverage.*
+
+# MySQL/PostgreSQL
+*.sql
+*.sql.gz
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Pytest
+.cache
+
+# Other IDEs
+.idea/
+*.iml
+
+# Environment Variables
+.env

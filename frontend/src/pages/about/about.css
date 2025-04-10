@@ -1,0 +1,232 @@
+.about_section_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1e1e15f;
+}
+.about_container {
+    width: 100%;
+    background-color: #fff;
+}
+
+.about_header h1 {
+    font-size: 70px;
+    color: #000000dc;
+}
+
+.about_header .text_p {
+    font-size: 22px;
+    color: #000000dc;
+    padding: 16px;
+    font-weight: 400;
+}
+.about_header .header_text {
+    background: linear-gradient(135deg, #0ABF8E 0%, #1E90FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.about_header {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.about_section_1 .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 61vh;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.7s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(80px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+.carts {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.carts .cart1 {
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: -2px 3px 5px rgba(0, 0, 0, 0.03),  /* Слева */
+    2px 3px 5px rgba(5, 5, 5, 0.03),  /* Справа */
+    0px 3px 5px rgba(0, 0, 0, 0.03),  /* Снизу */
+    0px -2px 4px rgba(0, 0, 0, 0.01); /* Немного сверху */
+
+}
+.cart1 .cart {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+.cart1 p {
+    padding-top: 10px;
+    font-size: 19px;
+    color: #555454dc;
+}
+
+.cart1 h2 {
+    font-size: 45px;
+}
+
+.carts .cart1 h2 {
+    color: #0ABF8E;
+}
+
+.about_container .about_section_3 {
+    width: 100%;
+    height: 155vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1e1e15f;
+}
+
+.about_section_3 .slider {
+    width: 1250px;
+    padding: 15px;
+}
+.about_section_3 .slider img{
+    border-radius: 12px;
+}
+
+.about_section_3 h1 {
+    padding: 25px;
+}
+
+.about_section_5 h1 {
+    padding: 25px;
+}
+
+
+.about_section_5 {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1e1e15f;
+}
+
+.about_section_5 .about_video {
+    width: 1250px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_video iframe {
+    width: 1250px;
+    border-radius: 10px;
+    border-radius: 12px;
+  }
+  
+.about_section_4 {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+  .slider_carts {
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+.about_section_4 .card {
+    width: 95%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+}
+
+.about_section_4 .con_card {
+    width: 32%;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 
+        0px 5px 8px rgba(90, 89, 89, 0.05),  /* Тень сверху (слабая) */
+        -5px 5px 10px rgba(176, 176, 176, 0.05), /* Слева */
+         5px 5px 10px rgba(176, 176, 176, 0.05), /* Справа */
+         0px 8px 10px rgba(176, 176, 176, 0.05); /* Снизу (сильнее) */
+}
+
+.about_section_4 .card .icon{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, #4873ff, #3a76f7);
+    border-radius: 100%;
+    color: #fff;
+}
+
+.about_section_4 .card span {
+    color: #292828ea;
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.about_section_4 .card p {
+    color: #00000093;
+    padding: 3px;
+    font-size: 16px;
+}
+
+
+.about_section_5 h1 {
+    padding: 25px;
+}
+
