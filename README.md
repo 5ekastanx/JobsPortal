@@ -24,7 +24,7 @@
    ```bash
    git clone https://github.com/5ekastanx/JobsPortal
    cd JobsPortal
-
+ 
 2. Собери и запусти контейнеры:
     ```bash
     docker-compose up --build
