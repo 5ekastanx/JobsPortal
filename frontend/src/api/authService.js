@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://0.0.0.0:8055/api/v1/";
+const API_URL = "http://127.0.0.1:8000/api/v1/";
 
 // Токены храним в памяти приложения
 let accessToken = "YOUR_ACCESS_TOKEN";
