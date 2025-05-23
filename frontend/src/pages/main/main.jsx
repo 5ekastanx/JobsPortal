@@ -7,7 +7,7 @@ import JobCard from '../../components/card.jsx'
 import { Routes, Route } from 'react-router-dom';
 import { getAccessToken, refreshAccessToken, clearTokens } from "../../api/authService.js";
 
-const API_URL = "http://172.30.96.1:8055/api/v1/jobs/";
+const API_URL = "http://127.0.0.1:8000/api/v1/jobs/";
 
 const Main = () => {
   const [allJobs, setAllJobs] = useState([]);
